@@ -1,0 +1,39 @@
+name: AfkSystem
+version: 1.0
+author: Armand_95
+main: me.armand_95.afksystem.Main
+description: Afk plugin system
+
+
+commands:
+   fk:
+      description: Basic plugin command
+   fk help:
+      description: Show plugin help
+   fk reload:
+      description: Reload the config file
+   afk:
+      description: Make you go into Afk Mode
+   fk perm:
+      description: Shows plugin's permissions
+      
+permissions:
+    fk.*:
+        description: Gives access to all commands
+        children:
+            fk.help: true
+            fk.afk: true
+            fk.reload: true
+            fk.afk.see: false
+    fk.help:
+        description: Show plugin's help
+        default: op
+    fk.afk:
+        description: Allow to go into afk
+        default: op
+    fk.reload:
+        description: Reload the config
+        default: op
+    fk.afk.see:
+        description: See players that goes into afk
+        default: op

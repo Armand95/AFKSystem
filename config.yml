@@ -1,0 +1,14 @@
+#Plugin of Armand_95, Free of utilisation
+#Made the 09/04/2020
+
+Messages:
+   Prefix: "[AfkSystem]"
+   NoPermission: "&cYou doesn't have the permission to execute this command."
+   AfkMessageIn: "&7*{PLAYER} is afk"
+   AfkMessageOut: "&7*{PLAYER} isn't afk anymore"
+   PlayerIsAfk: "&bThis player is afk"
+   CommandDontExist: "&cCommand doesn't exist"
+
+Config:
+   TabPrefix: true #Set this to false if you use a plugin to set prefixx in the tablist
+   PlayerIsAfkTitle: true #Show a title to a player who mention an Afk player
